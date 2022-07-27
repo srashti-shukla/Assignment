@@ -1,0 +1,33 @@
+
+Jul 27, 2022 9:03:42 PM Gemini.Main main
+INFO: FileReader and Properties object created.
+Jul 27, 2022 9:03:42 PM Gemini.Main main
+INFO: Properties file loaded
+Jul 27, 2022 9:03:42 PM Gemini.Main main
+INFO: File obj created.
+Jul 27, 2022 9:03:42 PM Gemini.Main main
+INFO: Scanner object created.
+Jul 27, 2022 9:03:42 PM Gemini.Main main
+INFO: Data converted to string successfully
+Jul 27, 2022 9:03:42 PM Gemini.Main main
+INFO: String conversion to array successful
+Jul 27, 2022 9:03:42 PM Gemini.Main main
+INFO: Program executed successfully!!
+Jul 27, 2022 9:03:42 PM Gemini.Main main
+INFO: =========================================================================
+Jul 27, 2022 9:03:46 PM Gemini.Main main
+INFO: FileReader and Properties object created.
+Jul 27, 2022 9:03:46 PM Gemini.Main main
+INFO: Properties file loaded
+Jul 27, 2022 9:03:46 PM Gemini.Main main
+INFO: File obj created.
+Jul 27, 2022 9:03:46 PM Gemini.Main main
+INFO: Scanner object created.
+Jul 27, 2022 9:03:46 PM Gemini.Main main
+INFO: Data converted to string successfully
+Jul 27, 2022 9:03:46 PM Gemini.Main main
+INFO: String conversion to array successful
+Jul 27, 2022 9:03:46 PM Gemini.Main main
+INFO: Program executed successfully!!
+Jul 27, 2022 9:03:46 PM Gemini.Main main
+INFO: =========================================================================
