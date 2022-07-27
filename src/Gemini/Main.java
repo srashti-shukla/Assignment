@@ -92,7 +92,7 @@ public class Main {
                         //conditional statement to check if word is present in the file or not.
                         if(word.equals(arr[i]))
                         {
-                            System.out.println(frequency(arr,word));
+                            System.out.println(word+":"+frequency(arr,word));
                             return;
                         }
                         else
