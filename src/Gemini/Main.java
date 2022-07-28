@@ -54,7 +54,7 @@ public class Main {
         {   LogManager.getLogManager().reset();
 
             //Creating Log class obj
-            Log syslog =new Log("log.txt");
+            Log syslog =new Log("log.log");
 
             //opening file in read mode
             try(FileReader reader=new FileReader("config.properties"))
@@ -82,8 +82,7 @@ public class Main {
                     syslog.logger.info("Data converted to string successfully");
                     String[] arr=str.split(" ");
                     syslog.logger.info("String conversion to array successful");
-                    syslog.logger.info("Program executed successfully!!");
-                    syslog.logger.info("=========================================================================");
+
 
 
                     //For printing the desired output
@@ -93,18 +92,24 @@ public class Main {
                         if(word.equals(arr[i]))
                         {
                             System.out.println(word+":"+frequency(arr,word));
+                            syslog.logger.info("Word found and method call completed.");
+                            syslog.logger.info("done");
+                            syslog.logger.info("=========================================================================");
                             return;
                         }
                         else
                         {
                             System.out.println(frequency(arr));
+                            syslog.logger.info("Word not found and method call completed.");
+                            syslog.logger.info("done");
+                            syslog.logger.info("=========================================================================");
                             return;
                         }
                     }
 
-
                     //closing the file
                     sc.close();
+                    syslog.logger.info("File closed");
 
                 }
                 catch(Exception e)
