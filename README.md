@@ -107,6 +107,23 @@ Start the server
   npm run start
 ```
 
+## Tech Stack
+
+**Platform:** JetBrains IDE Intellij 
+
+**Language:** Java
+
+**packages used: ** 
+                - import java.io.File;
+                - import java.io.FileReader;
+                - import java.io.IOException;
+                - import java.util.HashMap;
+                - import java.util.Properties;
+                - import java.util.Scanner;
+                - import java.util.logging.LogManager;
+                - import java.util.logging.FileHandler;
+                - import java.util.logging.Logger;
+                - import java.util.logging.SimpleFormatter
 
 ## Authors
 
